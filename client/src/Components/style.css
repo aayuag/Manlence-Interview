@@ -1,0 +1,151 @@
+.login-page{
+    background-color: #f3f9fa;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.login-input{
+    padding: 1em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    border-radius: 3em;
+    margin:0.5em;
+    width: 50em;
+}
+.login-heading{
+    color: white;
+    text-align: center;
+}
+.login-div{
+    padding: 2em;
+    background: #90c3e7;
+    border-radius: 2em;
+    text-align: center;
+}
+.login-submit{
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 2em;
+    background: #90c3e7;
+    color: whitesmoke;
+    border: 1px solid #90c3f9;
+    font-size: 25px;
+}
+.login-para{
+    color: #006471;;
+    font-weight: 500;
+    padding-top: 0.5vh;
+}
+.product-image-div{
+    height: 8em;
+    border: 1px solid;
+
+}
+.product-image{
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+.products-conatiner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1em;
+
+    gap: 10px;
+}
+.product-card{
+    
+    margin: 1em;
+    border: 1px solid;
+    box-shadow: 5px 2px #90c3e7;
+    text-align: center;
+    background: white;
+
+
+}
+.product-heading{
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-size: larger;
+}
+.product-edit{
+    padding-left: 1rem;
+    text-align: left;
+    padding-right: 1rem;
+    background-color: white;
+    border-radius: 20%;
+    padding-bottom: 0.5rem;
+    margin-right: 3rem;
+    padding-top: 0.5rem;
+}
+.product-delete{
+    padding-left: 1rem;
+    text-align: left;
+    padding-right: 1rem;
+    background-color: white;
+    border-radius: 20%;
+    padding-bottom: 0.5rem;
+    
+    padding-top: 0.5rem;
+}
+.product-buttons{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.edit-popup{
+    /* border: 1px solid black; */
+    width: 100vw;
+  height: 100vh;
+  background-color: #f3f9fa;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.edit-popupcontainer{
+    width: 500px;
+  height: 500px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+.productedit-btn{
+    border-radius: 3em;
+    background: white;
+    padding: 1em;
+    margin-top: 2em;
+}
+.search-box{
+    padding: 1em;
+    
+}
+.top-bar{
+    margin: 1em;
+    /* display: -webkit-box; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+
+}
+.add-product{
+    padding-left:1em ;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: 1em;
+    background-color: white;
+}
+.background-color{
+    background-color: #f3f9fa;
+    height:100vh;
+}
+.edit-input{
+    padding: 1em;
+    border-radius: 3em;
+}
